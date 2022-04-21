@@ -284,7 +284,7 @@ function getFetch(userInput){
 		});
   }
   
-  //Test Barcode  011110038364 ()
+  //Test Barcode  044000032029()
 
   class ProductInfo{
 	  constructor(productData){
