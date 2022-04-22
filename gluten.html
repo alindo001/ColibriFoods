@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Vegetarian Checker</title>
+		<title>Gluten Checker</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -31,16 +31,15 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Is It Vegetarian?</h1>
+										<h1>Is It Gluten Free?</h1>
 									</header>
 
-									<span class="image main"><img src="images/vegetarian.jpg" alt="" /></span>
+									<span class="image main"><img src="images/gluten.jpg" alt="" /></span>
 
 									<h2>
-										veg·e·tar·i·an</h2>
-									<p>a person who does not eat meat, and sometimes other animal products, especially for moral, religious, or health reasons.</p>
-									<p>relating to the exclusion of meat or other animal products from the diet.
-										"a vegetarian restaurant"</p>
+										glu·ten</h2>
+									<p>a substance present in cereal grains, especially wheat, that is responsible for the elastic texture of dough. A mixture of two proteins, it causes illness in people with celiac disease.</p>
+									<p></p>
 
 									<hr class="major" />
 
@@ -48,7 +47,7 @@
 									<label class="barcode" for="barcode">Enter a 12 Digit UPC Barcode Number</label>
 									<section class="barcode">
 									<input type="number" id="barcode" name="barcode" value="" placeholder="Enter Barcode">
-									<button type="button" onclick="getFetch();" name="button" >Get Values</button>
+									<button type="button" onclick="getVegan();" name="button" >Get Values</button>
 									</section>
 									<section class="product-img">
 									<img id="product-img" src="" alt="">
@@ -59,7 +58,7 @@
 									<table id="ingredient-table">
 										<tr>
 											<th>Ingredient</th>
-											<th>Vegetarian?</th>
+											<th>Vegan?</th>
 										</tr>
 									</table>
 								
@@ -102,7 +101,8 @@
 									</header>
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
-										<li><a href="index.html">Is it Vegan? (**Coming Soon**)</a></li>
+										<li><a href="vegetarian.html">Is it Vegetarian? </a></li>
+										<li><a href="vegan.html">Is it Vegan? </a></li>
 										<li><a href="index.html">Login</a></li>
 									<!--	<li>
 											<span class="opener">Submenu</span>
@@ -166,7 +166,7 @@
 										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
 										<li class="icon solid fa-phone">(000) 000-0000</li>
 										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
+										Florida 00000-0000</li>
 									</ul>
 								</section>
 
