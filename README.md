@@ -5,6 +5,8 @@ Dynamic webpage that lets you input a barcode and return vegan or vegetarian inf
 
 **Link to API** https://world.openfoodfacts.org/
 
+<< Test Barcode: 044000032029 >>
+
 ![alt tag](colibriScreenshot.PNG)
 
 ## How It's Made:
